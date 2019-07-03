@@ -7,3 +7,5 @@ for address in addresses
 	dump.set_content(dump.content+"\n"+address+"\n"+meta.scan_address(library, address))
 end for
 print("Done!")
+
+// You need to create a text file called "dump" in your home folder
